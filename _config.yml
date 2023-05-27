@@ -35,7 +35,7 @@ links:
 
     # amazonpay
   - Name: amazon pay
-    URL: 
+    URL: upi://pay?pa=9445240637@apl&tn=Send Payment&pn=Lakshmi Priya Rajkumar
     Color: '#2d333d'
     Icon-Class: fab fa-amazon-pay
 
