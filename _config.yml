@@ -237,12 +237,12 @@ links:
   #   Text_Color: '#ffffff'
 
     # BUY ME A COFFEE
-  # - Name: BuyMeACoffee
-  #   URL: 'https://buymeacoffee.com'
-  #   Username: NiranjanRaj
-  #   Icon-Class: fas fa-mug-hot
-  #   Color: '#FFDD00'
-  #   Text_Color: '#000000'    
+  - Name: BuyMeACoffee
+    URL: 'https://buymeacoffee.com'
+    Username: NiranjanRaj
+    Icon-Class: fas fa-mug-hot
+    Color: '#FFDD00'
+    Text_Color: '#000000'    
  
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 # footer: 'Yes'
