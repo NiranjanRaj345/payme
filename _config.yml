@@ -19,8 +19,8 @@ links:
   - Name: google pay
     URL: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
     Username: 
-    Color: '#1DA1F2'
-    Icon-Class: fab fa-twitter
+    Color: '#ffffff'
+    Icon-Class: fab fa-google-pay
   
     # TELEGRAM
   # - Name: Telegram
