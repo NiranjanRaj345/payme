@@ -17,8 +17,8 @@ links:
     
     # gpay
   - Name: google pay
-    URL: https://twitter.com
-    Username: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
+    URL: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
+    Username: 
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
   
