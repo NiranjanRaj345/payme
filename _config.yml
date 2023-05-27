@@ -18,24 +18,19 @@ links:
     # gpay
   - Name: google pay
     URL: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
-    Username: 
-    Color: '#4580e8'
-    Icon-Class: fab fa-google-pay
+    Color: '#ffffff'
+    Icon-Class: fab fa-google
   
-    # TELEGRAM
-  # - Name: Telegram
-  #   URL: http://telegram.me
-  #   Username: Niranjan_Rajkumar
-  #   Color: '#0088cc'
-  #   Icon-Class: fab fa-telegram-plane
+    # paytm
+  - Name: Paytm
+    URL: upi://pay?pa=9445240637@paytm&pn=PaytmUser&mc=0000&mode=02&purpose=00&orgid=159761
+    Color: '#01b0e3'
 
-    # SNAPCHAT
-  # - Name: Snapchat
-  #   URL: https://www.snapchat.com/add
-  #   Username: 'niranjan_342k5'
-  #   Color: '#FFFC00'
-  #   Text_Color: '#000000'
-  #   Icon-Class: fab fa-snapchat-ghost
+    # phonepe
+  - Name: PhonePe
+    URL: https://www.snapchat.com/add
+    Color: '#5c249a'
+    Text_Color: '#000000'
 
     # YOUTUBE
   # - Name: YouTube
