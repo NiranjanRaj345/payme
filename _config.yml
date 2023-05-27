@@ -24,8 +24,8 @@ links:
     # paytm
   - Name: Paytm
     URL: upi://pay?pa=9445240637@paytm&pn=PaytmUser&mc=0000&mode=02&purpose=00&orgid=159761
-    Color: '#01b0e3'
-    Text_Color: '#ffffff'
+    Color: '#1b2a8c'
+    Text_Color: '#06bbf3'
 
     # phonepe
   - Name: PhonePe
