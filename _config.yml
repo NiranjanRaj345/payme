@@ -39,21 +39,15 @@ links:
     Color: '#2d333d'
     Icon-Class: fab fa-amazon-pay
 
-  
-
     # BUY ME A COFFEE
-  - Name: BuyMeACoffee
-    URL: 'https://buymeacoffee.com'
-    Username: NiranjanRaj
-    Icon-Class: fas fa-mug-hot
-    Color: '#FFDD00'
-    Text_Color: '#000000'    
+  # - Name: BuyMeACoffee
+  #   URL: 'https://buymeacoffee.com'
+  #   Username: NiranjanRaj
+  #   Icon-Class: fas fa-mug-hot
+  #   Color: '#FFDD00'
+  #   Text_Color: '#000000'    
  
-# YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
-# footer: 'Yes'
-
-# STOP EDITING HERE ---------- YOU'VE REACHED THE END OF THE CONFIGURATION
-
+footer: 'Yes'
 # Compress
 compress_html:
   clippings: all
