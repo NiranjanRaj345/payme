@@ -20,24 +20,24 @@ links:
     URL: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
     Color: '#ffffff'
     Icon-Class: fab fa-google
-  
+    Text_Color: '#5d5d65'
     # paytm
   - Name: Paytm
     URL: upi://pay?pa=9445240637@paytm&pn=PaytmUser&mc=0000&mode=02&purpose=00&orgid=159761
     Color: '#01b0e3'
+    Text_Color: '#ffffff'
 
     # phonepe
   - Name: PhonePe
-    URL: https://www.snapchat.com/add
+    URL:  upi://pay?pa=9445240637@ybl&pn=**0637&mc=0000&mode=02&purpose=00
     Color: '#5c249a'
-    Text_Color: '#000000'
+    Text_Color: '#ffffff'
 
-    # YOUTUBE
-  # - Name: YouTube
-  #   URL: https://www.youtube.com/channel
-  #   Username: UCmxJFe6LrfTIJlnXJwLlmBQ
-  #   Color: '#ff0000'
-  #   Icon-Class: fab fa-youtube
+    # amazonpay
+  - Name: amazon pay
+    URL: 
+    Color: '#2d333d'
+    Icon-Class: fab fa-amazon-pay
 
     # INSTAGRAM
   # - Name: Instagram
