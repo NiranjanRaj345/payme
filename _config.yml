@@ -1,5 +1,5 @@
 # YOUR NAME OR TITLE OF YOUR SITE
-# name: Use me
+name: pay me
 
 # YOUR BRAND/PERSONAL TAGLINE
 tagline: use below options to pay me as by your convenience
@@ -16,7 +16,7 @@ links:
   # IF YOU DON'T WANT TO USE ANY OF THE FOLLOWING, JUST LEAVE THE URL BLANK
     
     # gpay
-  - Name: google pay
+  - Name: Google Pay
     URL: upi://pay?pa=niranrnk003-2@oksbi&pn=Niranjan Raj&aid=uGICAgMCgmeC6Kw
     Color: '#ffffff'
     Icon-Class: fab fa-google-pay
