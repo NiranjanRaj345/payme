@@ -42,8 +42,8 @@ links:
     # sbi bhim
   - Name: BHIM
     URL: upi://pay?pa=pranav12105@sbi&pn=Lakshmi Priya Rajkumar&mc=&tr=&tn=&am=&cu=INR&url=&mode=02&purpose=00&orgid=159002&sign=MEQCIEp4tGpoobQLCaEOR8ttjaiY+yf0QWgSJTILFeMdak2hAiBXO94sPDX6SE3lyKRvNAOHCcdneWW9cCFzkjLZoUrWSg==
-    Color: '#1b2a8c'
-    Text_Color: '#ffffff'
+    Color: '#ffffff'
+    Text_Color: '#616367'
 
     # BUY ME A COFFEE
   # - Name: BuyMeACoffee
