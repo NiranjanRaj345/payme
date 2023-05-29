@@ -26,7 +26,7 @@ layout: compress
                     src="https://images.weserv.nl/?url={{site.Image_URL}}&h=300&w=300&fit=cover&mask=circle&maxage=7d"
                     onError="this.onerror=null;this.src='https://github.com/{{site.github_username}}.png';"
                     alt="{{site.name}}"> -->
-                <!-- <br>
+                <br>
                 <h1 class="text-5xl text-center font-semibold mt-3 mx-auto">{{site.name}}</h1>
                 <hr class="my-2 opacity-25">
                 <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-50 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center">{{site.tagline}}</p>
@@ -34,10 +34,10 @@ layout: compress
                     {% unless site.links == "" %}
                     {% include links.html %}
                     {% endunless %}
-                </div> -->
+                </div>
             </span>
             {% if site.footer and site.footer == 'Yes' or site.footer == 'yes' or site.footer == 'y' or site.footer == 'Y' %}<div
-                class="flex absolute mt-5 z-20 bottom-0 bg-black bg-opacity-0 w-full p-2 justify-center">Made
+                class="flex absolute mt-5 z-20 bottom-0 bg-black bg-opacity-0 w-full p-2 justify fa-pull-right">Made
                 by&nbsp;<a
                     class="underline font-semibold">Niranjan Rajkumar</a></div>{% endif %}
         </div>
