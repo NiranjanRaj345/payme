@@ -7,7 +7,21 @@ layout: compress
 
 <head>
     {%include meta.html%}
-    
+    <script>
+        document.title = "Use me to pay";
+        
+        // Add event listeners to detect tab changes
+        document.addEventListener("visibilitychange", function() {
+          if (document.visibilityState === "visible") {
+            // Set the title for the active tab
+            document.title = "Use me to pay";
+          } else {
+            // Set a different title when the tab is not active
+            document.title = "Come back :(";
+          }
+        });
+        
+                </script>
     
 </head>
 
