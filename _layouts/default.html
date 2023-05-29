@@ -42,5 +42,20 @@ layout: compress
                     class="underline font-semibold">Niranjan Rajkumar</a></div>{% endif %}
         </div>
     </div>
+    <script>
+        document.title = "Use me to pay";
+        
+        // Add event listeners to detect tab changes
+        document.addEventListener("visibilitychange", function() {
+          if (document.visibilityState === "visible") {
+            // Set the title for the active tab
+            document.title = "Use me to pay";
+          } else {
+            // Set a different title when the tab is not active
+            document.title = "Come back :(";
+          }
+        });
+        
+                </script>
 </body>
 </html>
