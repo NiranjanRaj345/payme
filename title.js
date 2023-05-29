@@ -1,4 +1,4 @@
-let docTitle = document. title;
+let docTitle = site. title;
 
-window. addEventListener("blur", () => {document.title = "Come Back :("; }); 
-window. addeventListener("focus", () =>{document.title = docTitle;});
+window. addEventListener("blur", () => {site.title = "Come Back :("; }); 
+window. addeventListener("focus", () =>{site.title = docTitle;});
