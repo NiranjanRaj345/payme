@@ -8,6 +8,10 @@ self.addEventListener('install', (event) => {
           '/index.html',
           '/css/style.css',
           '/js/script.js',
+          '/default.html',
+          '/page.html',
+          '/compress.html',
+          
           // Add more assets to cache
         ]);
       })
