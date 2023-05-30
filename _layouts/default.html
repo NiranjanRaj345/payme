@@ -36,11 +36,6 @@ layout: compress
             </div>
             <div class="bg-black h-full w-full absolute z-20 opacity-60"></div>
             <span class="text-center z-30">
-                <!-- <img id="image"
-                    class="2xl:w-1/6 xl:w-1/6 lg:w-1/5 md:w-1/3 w-1/2 sm:1/2 rounded-full m-auto shadow-2xl lg:border-2 md:border-2 sm:border-2"
-                    src="https://images.weserv.nl/?url={{site.Image_URL}}&h=300&w=300&fit=cover&mask=circle&maxage=7d"
-                    onError="this.onerror=null;this.src='https://github.com/{{site.github_username}}.png';"
-                    alt="{{site.name}}"> -->
                 <br>
                 <h1 class="text-5xl text-center font-semibold mt-3 mx-auto">{{site.name}}</h1>
                 <hr class="my-2 opacity-25">
@@ -57,38 +52,5 @@ layout: compress
                     class="underline font-semibold">Niranjan Rajkumar</a></div>{% endif %}
         </div>
     </div>
-    <!-- <script>
-        // Check if the Page Visibility API is supported by the browser
-        if (typeof document.hidden !== "undefined") {
-          // Add event listener for visibility change
-          document.addEventListener("visibilitychange", handleVisibilityChange);
-        }
-    
-        // Function to handle visibility change
-        function handleVisibilityChange() {
-          // If the page is hidden, change the title
-          if (document.hidden) {
-            document.title = "You left my website!";
-          } else {
-            // If the page is visible again, restore the original title
-            document.title = "Use me to Pay";
-          }
-        }
-      </script> -->
-    <script>
-        document.title = "Use me to pay";
-        
-        // Add event listeners to detect tab changes
-        document.addEventListener("visibilitychange", function() {
-          if (document.visibilityState === "visible") {
-            // Set the title for the active tab
-            document.title = "Use me to pay";
-          } else {
-            // Set a different title when the tab is not active
-            document.title = "Come back :(";
-          }
-        });
-        
-                </script>
 </body>
 </html>
