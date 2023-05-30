@@ -12,6 +12,19 @@ layout: compress
 "https://en.gravatar.com/userimage/224707994/3590f890587a3b8f1120858eb7489700.png?size=200" 
         type = "image/x-icon">
 <title>Use me to Pay</title>
+<script>
+    // Event listener for visibility change
+    document.addEventListener('visibilitychange', function() {
+      // Check if the document is hidden
+      if (document.hidden) {
+        // Change the title when the user switches to another tab
+        document.title = "New Title";
+      } else {
+        // Restore the original title when the user comes back to the tab
+        document.title = "Original Title";
+      }
+    });
+  </script>
 </head>
 
 <body class="bg-black text-white">
