@@ -11,7 +11,6 @@ self.addEventListener('install', (event) => {
           '/default.html',
           '/page.html',
           '/compress.html',
-          
           // Add more assets to cache
         ]);
       })
